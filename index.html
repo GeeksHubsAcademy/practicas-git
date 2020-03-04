@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,22 +22,25 @@
     <title>Document</title>
     <script>
         alert('BIENVENIDOS AL DESASTRE!')
+
+        if (confirm('quieres realizar conflictos?')) {
+            k = Math.random() * 25 + 5;
+            for (i = 0; i < k; i++) {
+                document.querySelector('.holita').innerHTML += "JAJAJAJAJAJAJAJAJA";
+            } else {
+                alert('ERES UN AGUAFIESTAS!')
+            }
+        }
+
+
         confirm('quieres realizar conflictos?')
     </script>
-    <script>
-    
-    </script>
 </head>
-<body>
-    <div>
 
-    </div>
-    
-</head>
+
 <body>
     <h1>Practicas Git de Bootcamp Madrid</h1>
     <div class="holita"></div>
-    <h2>¿Peta o no peta?</h2>
-    <h3>de momento no jenny</h3>
 </body>
+
 </html>
