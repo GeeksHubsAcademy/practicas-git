@@ -13,23 +13,25 @@
             k = 999999;
             for(i = 0; i < k; i++){
                 document.querySelector('.holita').innerHTML += "JAJAJAJAJAJAJAJAJA";
+
+        if (confirm('quieres realizar conflictos?')) {
+            k = Math.random() * 25 + 5;
+            for (i = 0; i < k; i++) {
+                document.querySelector('.holita').innerHTML += "JAJAJAJAJAJAJAJAJA";
             }
         }else{
             alert('ERES UN AGUAFIESTAS!')
         }
-        
+
+
+        confirm('quieres realizar conflictos?')
     </script>
 </head>
 
-    <body>
-        <h1>Practicas Git de Bootcamp Madrid</h1>
-        <div class="holita"></div>
-        <h1>¿Peta o no peta?</h1>
-        <h2>de momento no jenny</h2>
-        <p>Todo es relativo... O eso dicen.</p>
-        <h3>Esta es mi parte Jeimy</h3>
-        <h4>Esto no funciona</h4>
-        <h5>No hago mas prueba</h5>
-    </body>
+
+<body>
+    <h1>Practicas Git de Bootcamp Madrid</h1>
+    <div class="holita"></div>
+</body>
 
 </html>
